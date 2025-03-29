@@ -51,4 +51,8 @@ Map screen
 
 ## `data_current_widget_map.dart`
 
+City Search Screen
+
+## `city_search_screen.dart`
+
 
