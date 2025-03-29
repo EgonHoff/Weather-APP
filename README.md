@@ -27,6 +27,14 @@ Stores my API key to keep it separate from other files and import the variable w
 ## `fetch_weather.dart`  
 
 Returns the API response from WeatherAPI, which is then decoded and handled using the models.  
-It accepts either the city name or latitude and longitude, depending on the provided argument.  
+It accepts either the city name or latitude and longitude, depending on the provided argument.
+
+# Global Controller
+
+## `global_controller.dart`
+
+Using the GetX dependency for state management, the global controller handles all the project logic. It is responsible for acquiring, processing, and updating data using reactive variables and `Obx` for the UI.
+
+
 
 
