@@ -1,16 +1,32 @@
 # weather_app
 
-A new Flutter project.
+Technicall test Equifax
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# Creation of Models for Data Management  
 
-A few resources to get you started if this is your first Flutter project:
+## `weather_data_current.dart`  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Handles the data associated with the `current` key in the JSON response from WeatherAPI.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## `weather_data_location.dart`  
+
+Handles the data associated with the `location` key in the JSON response from WeatherAPI.  
+
+## `weather_data.dart`  
+
+Combines the other models, allowing for scalability with additional data structures.  
+For example, if the `forecast` data from the API is needed, a new model can be created and integrated into this file.
+
+# API Connection  
+
+## `api_key.dart`  
+
+Stores my API key to keep it separate from other files and import the variable when needed.  
+
+## `fetch_weather.dart`  
+
+Returns the API response from WeatherAPI, which is then decoded and handled using the models.  
+It accepts either the city name or latitude and longitude, depending on the provided argument.  
+
+
