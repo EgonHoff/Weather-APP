@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:weather_app/controller/global_controller.dart';
 import 'package:weather_app/screens/home_screen.dart';
+import 'package:weather_app/screens/map_screen.dart';
 
 
 void main() {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       getPages: [
         GetPage(name: '/', page: () => HomeScreen()),
+        GetPage(name: '/map', page: () => MapScreen()),
       ],
     );
   }

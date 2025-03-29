@@ -39,12 +39,16 @@ Using the GetX dependency for state management, the global controller handles al
 
 # `home_screen.dart`
 
-Contruccion de la pantalla principal
+Build the home screen
 
 ## `header_widget.dart`
 ## `icon_widget.dart`
 ## `data_current_widget.dart`
 
+# `home_screen.dart`
 
+Map screen
+
+## `data_current_widget_map.dart`
 
 
