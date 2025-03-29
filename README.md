@@ -35,6 +35,16 @@ It accepts either the city name or latitude and longitude, depending on the prov
 
 Using the GetX dependency for state management, the global controller handles all the project logic. It is responsible for acquiring, processing, and updating data using reactive variables and `Obx` for the UI.
 
+# Home screen
+
+# `home_screen.dart`
+
+Contruccion de la pantalla principal
+
+## `header_widget.dart`
+## `icon_widget.dart`
+## `data_current_widget.dart`
+
 
 
 
