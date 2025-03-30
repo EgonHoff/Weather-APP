@@ -66,8 +66,18 @@ Test for controller and data models using mock and build runner
 
 ## `global_controller_test.dart`
 ## `mocks.dart`
+
+    flutter pub run build_runner build
+
+
 ## `weather_data_test.dart`
 
+    flutter test
+
+# To compile
+
+    flutter build apk
+    flutter build apk --release
 
 
 # Dependencies
